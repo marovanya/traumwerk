@@ -46,11 +46,11 @@ int Game::start() {
         glfwTerminate();
         return -1;
     }
-	// Ensure we can capture the escape key being pressed below
-	glfwSetInputMode(this->window, GLFW_STICKY_KEYS, GL_TRUE);
+    // Ensure we can capture the escape key being pressed below
+    glfwSetInputMode(this->window, GLFW_STICKY_KEYS, GL_TRUE);
 
-	// Dark blue background
-	glClearColor(0.0f, 0.0f, 0.4f, 0.0f);
+    // Dark blue background
+    glClearColor(0.0f, 0.0f, 0.4f, 0.0f);
 
     this->is_running = true;
     return 0;
