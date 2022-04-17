@@ -46,7 +46,6 @@ int Game::start() {
         glfwTerminate();
         return -1;
     }
-
 	// Ensure we can capture the escape key being pressed below
 	glfwSetInputMode(this->window, GLFW_STICKY_KEYS, GL_TRUE);
 
